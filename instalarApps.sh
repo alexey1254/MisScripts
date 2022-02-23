@@ -1,10 +1,10 @@
 ## Instalador de apps de preferencia mia para vms
 ## Ejecutar como admin
 
-echo "--------------------- Se va a instalar MariaDB ---------------------"
+echo "--------------------- Se va a instalar Mysql-Server ---------------------"
 
 sudo apt update
-sudo apt install mariadb-server -y
+sudo apt install mysql-server -y
 
 echo "--------------------- Se ha instalado mariaDB ---------------------"
 
@@ -22,7 +22,7 @@ sudo sudo snap install code --classic
 
 echo "--------------------- Se ha instalado VS-Code ---------------------"
 
-echo " ---------------------Ahora se va a configurar mysql ---------------------"
+echo " ---------------------Ahora se va a configurar MySql ---------------------"
 
 sudo mysql_secure_installation
 
