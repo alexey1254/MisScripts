@@ -1,3 +1,8 @@
+/**
+ *
+ * @author Alex
+ */
+
 public class Random {
     /**
      * Devuelve un numero random comprendido entre min y max AMBOS inclusive
