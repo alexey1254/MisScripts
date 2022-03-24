@@ -6,6 +6,6 @@
 
 ### Autores
 
-- [Kevin Ruiz Díaz]()
+- [Kevin Ruiz Díaz](https://github.com/KevinRuiz11)
 
 - [Alejandro Marrero Cabrera](https://www.github.com/alexey1254)
