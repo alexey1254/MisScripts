@@ -1,7 +1,11 @@
+#!/bin/bash
+
+simbolo=$1
+
 echo Simbolos disponibles:
 echo ">, >=, <, <=, =, !="
-echo Introduce el simbolo:
-read simbolo
+
+read -p "Introduce el simbolo " simbolo
 
 case $simbolo in
 	"=")
