@@ -5,7 +5,7 @@ simbolo=$1
 echo Simbolos disponibles:
 echo ">, >=, <, <=, =, !="
 
-read -p "Introduce el simbolo " simbolo
+# read -p "Introduce el simbolo " simbolo
 
 case $simbolo in
 	"=")
@@ -24,7 +24,7 @@ case $simbolo in
 		echo "-lt"
 		;;
 	"!=")
-		echo "-ne"
+		echo '\-ne'
 		;;
 	"*")
 		echo "No se puede procesar"
