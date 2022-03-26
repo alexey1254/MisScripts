@@ -48,10 +48,15 @@ read -p "El paquete no esta instalado, deseas instalarlo? si/no " opc
     then
         sudo apt install $paquete
     fi
-else
-    echo "No se instalara el paquete
-    Saliendo..."
-    exit 0
+    elif [$opc == "no" ]
+    then
+        echo "No se instalara el paquete
+        Saliendo..."
+        exit 0
+    else
+        echo "Opcion invalida. El paquete no será instalado.
+        Aborted"
+        exit 2
 fi
 
 
